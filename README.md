@@ -39,7 +39,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## Webpage Screenshot
-You can find my URL: 
+You can find my URL: https://gdonna.github.io/Portfolio-DonnaGoon/
 ![Screenshot of Donna Goon's Portfolio](./assets/Images/127.0.0.1_5500_index.html.png)
 
 ## SPECIAL THANKS
