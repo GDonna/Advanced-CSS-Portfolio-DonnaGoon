@@ -18,8 +18,7 @@ header {
     padding: 50px;
     margin-bottom: 25px;
     background-color: #cad2c5;
-    position: relative;
-    /* transition: 2s */
+    /* position: relative; */
 }
 
 
@@ -30,7 +29,6 @@ header h1{
 
 header nav{
     float: right;
-    display: flex;  
 }
 
 nav{
@@ -61,21 +59,25 @@ section {
 
 #AboutMe {
     padding: 25px;
-    display: inline-block;
     background-color: #84a98c;
     border: solid;
     border-color: #cad2c5;
 
 }
-.float-left{
-    float: left;
-    max-width: 200px;
-    border-radius: 100px;
-    padding: 25px;
-    background-color: #84a98c;
-    
+h6{
+    font-size: 20px;
 }
 
+p{
+    margin-bottom: 18px;
+}
+.float-left{
+    float: left;
+    max-width: 175px;
+    padding: 20px;
+    border-radius: 100px;
+    background-color: #84a98c; 
+}
 
 .MyWork {
     background-color: #84a98c;
@@ -87,14 +89,13 @@ section {
 
 .projects{
     display: flex;
-    flex-wrap: wrap;
-    
-       
+    flex-wrap: wrap;  
 }
 
 h4{
     text-align: left;
 }
+
 
 .horiseonimg:hover{
     padding: 10px;
@@ -105,17 +106,13 @@ h4{
 }
 
 .horiseonimg {
-    max-height:600px;
-    margin: 30px 3px 0 0;
-    padding: 10px;
+    max-height:650px;
+    margin:30px, 0, 30px, 0;
     display: inline-flex;
 }
 
 
 #refactoring {
-    position:relative;
-    right: 225px;
-    top: 200px;
     height: 50px;
     width: 200px;
     color: black;
@@ -123,57 +120,43 @@ h4{
     border-color: black;
     background-color: lightgrey;
     text-align: center;
+    margin-bottom: 50px;
     
 }
 
-
 #holderid{
-    position:relative;
-    right: 225px;
-    top: 100px;
-    height: 75px;
+    height: 50px;
     width: 200px;
+    margin-bottom: 50px;
     color: black;
     border-style: solid;
     border-color: black;
     background-color: lightgrey;
     text-align: center;
-
 }
-.placeholder1img{
 
-    position:relative;
-    max-height: 200px;
-    margin: 5px;
-    padding: 10px;
-    display: inline-flex;
-
+a{
+    margin-left: 50px;
 }
-.placeholder2img{
 
-    position:relative;
+.placeholderimg{
     max-height: 200px;
-    margin: 5px;
-    padding: 10px;
     display: block;
+} 
 
-}
-.placeholder1img:hover{
-
-    max-height: 200px;
-    margin: 10px;
+.placeholderimg:hover{
     padding: 10px;
     border: solid;
-    border-width: 1px;
-    border-radius: 75px;
-
+    border-color: black;
+    background-color: #cad2c5;
 }
+
 #ContactMe {
     background-color: #cad2c5;
     padding: 25px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .horiseonimg {
         max-height:375px;
         margin: 30px 3px 0 0;
@@ -181,9 +164,6 @@ h4{
         display: inline-flex;
     }
     #refactoring {
-        position:relative;
-        right: 260px;
-        top: 350px;
         height: 50px;
         width: 200px;
         color: black;
@@ -193,7 +173,15 @@ h4{
         text-align: center;
         
     }
-    
+    nav a{
+        display:block;
+        flex-direction: column;
+        color: black;
+        text-decoration: none;
+    }
+    .placeholderimg{
+        max-height: 150px;
+    }
 }
 
 
