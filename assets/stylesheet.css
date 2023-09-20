@@ -112,6 +112,12 @@ h4{
     display: inline-flex;
 }
 
+.project1img {
+    max-height:650px;
+    margin:30px, 0, 30px, 0;
+    display: inline-flex;
+}
+
 /* This is where I was able to understand Sherry's code, and applied it below for my title page*/
 #refactoring {
     height: 50px;
